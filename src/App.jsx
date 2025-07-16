@@ -3,6 +3,8 @@ import './App.css';
 import Cursor from './components/Cursor';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import About from './components/About';
+import Contact from './components/Contact';
 import Particles from './components/Particles';
 
 function App() {
@@ -12,7 +14,8 @@ function App() {
       <Cursor />
       <Navbar />
       <Hero />
-      {/* Add About, Contact, etc. here */}
+      <About />
+      <Contact />
     </>
   );
 }
